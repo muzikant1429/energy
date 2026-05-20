@@ -13,7 +13,7 @@ import re
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "8920448480:AAGn-JeBPAFqhs32Kx-m5pHpv0P3M77uZLQ"
 MAIN_CHAT_ID = int(os.getenv("MAIN_CHAT_ID"))
 SYSTEM_CHAT_ID = int(os.getenv("SYSTEM_CHAT_ID"))
 SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME", "@lihvan_team_sup")
