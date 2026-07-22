@@ -31,7 +31,7 @@ SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME", "@lihvan_team_sup")
     CONFIRMATION
 ) = range(9)
 
-# === Глобальные данные ===
+# === Глобальные данные. ===
 user_lotteries = {}  # user_id -> данные конкурса
 muted_users = set()  # пользователи в муте
 
